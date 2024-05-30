@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+    background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
+}
+
+.RegisterContainer {
+    width: 500px;
+    margin: 150px auto;
+    background-color: rgb(0, 0, 0, .5);
+    color: aliceblue;
+    padding: 10px 20px 30px;
+    border-radius: 4px;
+
+
+}
+
+.RegisterContainer h1 {
+    color: antiquewhite;
+    text-align: center;
+}
+
+.form-group input {
+    width: 100%;
+    font-size: 1.2em;
+    border: 1px solid bisque;
+    box-shadow: 2px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+}
+
+.form-group textarea {
+    width: 100%;
+}
+
+input:focus {
+    background-color: blanchedalmond;
+}
+
+.btn {
+
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: bisque;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+.form-group1 select{
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.form-group1{
+    margin:10px;
+}
